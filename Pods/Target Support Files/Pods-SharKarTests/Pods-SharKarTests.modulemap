@@ -1,0 +1,6 @@
+framework module Pods_SharKarTests {
+  umbrella header "Pods-SharKarTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
