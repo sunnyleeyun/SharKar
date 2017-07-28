@@ -15,9 +15,8 @@ class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
-       
+        
         //第一次登入後可取得使用者token，後續即可直接登入
         if (FBSDKAccessToken.current()) != nil{
             

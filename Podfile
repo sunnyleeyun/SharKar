@@ -9,12 +9,11 @@ target 'SharKar' do
 
     pod ‘JSQMessagesViewController’
 
-    pod 'MicrosoftAzureMobile', '~> 3.3.0'
-
-
     pod ‘FBSDKCoreKit’
     pod ‘FBSDKShareKit’
     pod ‘FBSDKLoginKit’
+
+    pod 'MicrosoftAzureMobile', '~> 3.3.0'
 
 
   target 'SharKarTests' do
